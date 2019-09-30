@@ -1,0 +1,34 @@
+{
+  "name": "@cz-nic/json-python-coverage",
+  "version": "0.1.0",
+  "description": "JavaScript tool for converting json coverage report to format used by Python coverage.",
+  "scripts": {
+    "test": "jest",
+    "check": "eslint --ext .js test src"
+  },
+  "keywords": [
+    "coverage-reporter",
+    "CLI"
+  ],
+  "homepage": "https://github.com/CZ-NIC/json-python-coverage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CZ-NIC/json-python-coverage"
+  },
+  "bugs": {
+    "url": "https://github.com/CZ-NIC/json-python-coverage/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Martin Strouhal <martin.strouhal@nic.cz>",
+  "bin": {
+    "json-python-coverage": "src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true
+  }
+}
