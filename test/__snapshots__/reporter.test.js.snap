@@ -8,8 +8,8 @@ exports[`Coverage reporter checks dividing by zero 1`] = `
 exports[`Coverage reporter matches snapshot 1`] = `
 "Name                                                     Stmts   Miss Branch BrPart  Cover
 ------------------------------------------------------------------------------------------
-../test_file.js                                             26      1     10     10    86%
-../test_file_2.js                                           51     22     25     25    55%
+test_file.js                                                26      1     10     10    86%
+test_file_2.js                                              51     22     25     25    55%
 ------------------------------------------------------------------------------------------
 TOTAL                                                       77     23     35     16    65%
 "

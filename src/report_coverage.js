@@ -15,7 +15,7 @@ function report_coverage(json_file, regex_pattern = DEFAULT_REGEX, fail_threshol
     for (const report_property in json_file) {
         if (report_property === 'total')
             continue
-        const js_path = path.relative(__dirname, report_property)
+        const js_path = path.relative('.', report_property)
         if (!regex.test(report_property))
             continue
 
