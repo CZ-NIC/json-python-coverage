@@ -20,7 +20,7 @@ easily executed via CLI.
 
 ::
 
-    npm i -g json-python-coverage
+    npm i -g @cz-nic/json-python-coverage
 
 -----
 Usage
