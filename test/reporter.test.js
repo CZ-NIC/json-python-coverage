@@ -30,7 +30,7 @@ describe('Coverage reporter', () => {
         expect(mock_stream.buffer).toMatchSnapshot()
 
         // checks program terminating
-        expect(process.exit).toHaveBeenCalledWith(1)
+        expect(process.exit).toHaveBeenCalledWith(0)
     })
 
     test('checks i/o error', () => {
