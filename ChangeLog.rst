@@ -5,9 +5,12 @@ ChangeLog
 Unreleased
 ----------
 
-* Modify the result code if there is no test
 
+0.2.0 (2023-03-06)
 ------------------
+
+* Change result code to 0 if there are no matching test files
+
 0.1.0 (2019-19-09)
 ------------------
 
