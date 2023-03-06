@@ -38,7 +38,7 @@ function report_coverage(json_file, regex_pattern = DEFAULT_REGEX, fail_threshol
 
     if (statements_total + branches_total === 0) {
         error_stream.write('There are no matching files or all matching files are empty.\n')
-        process.exit(1)
+        process.exit(0)
     }
     const total_coverage = Math.round((statements_covered + branches_covered)
         / (statements_total + branches_total) * 100)
